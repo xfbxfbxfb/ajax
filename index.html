@@ -40,7 +40,7 @@
 				}
 			}
 			if(xmlhttp){//如果能够创建成功
-				if(config.ISASYN)
+				if(config.ISASYN){
 					xmlhttp.onreadystatechange = function(){
 						//定义HTTP状态发生改变时执行的函数
 						if(xmlhttp.readyState ==4&& xmlhttp.status==200)
